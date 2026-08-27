@@ -1,4 +1,5 @@
 
+```
 <h2 align="center">
   <span style="color:#2ec27e">>_</span> Hello, Engineer
 </h2>
@@ -9,7 +10,7 @@
 ```shell
 # About Me
 > 专注 单片机 / C语言 / 计算机基础
-
+```
 
 ### 🛠 Tech Stack
 
@@ -25,10 +26,7 @@
 <p align="center">
 <img height="160" src="https://stats.programcx.cn/api?username=dangyukun211&theme=tokyonight&hide_border=true&show_icons=true"/>
 <img height="160" src="https://stats.programcx.cn/api/top-langs/?username=dangyukun211&theme=tokyonight&hide_border=true&layout=compact"/>
-</p>### 📈 Activity Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dangyukun211&theme=tokyo-night&hide_border=true"/>
 </p><p align="center">
 Visitor count: <img src="https://komarev.com/ghpvc/?username=dangyukun211&color=2ec27e"/>
 </p>
+```
