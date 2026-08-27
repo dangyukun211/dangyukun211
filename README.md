@@ -34,10 +34,6 @@
 
 <p align="center">
 <img src="https://gitcode.net/gh/mirrors/github-readme-activity-graph/graph?username=dangyukun211&theme=tokyo-night&hide_border=true"/>
-</p>### 📌 My Projects
-
-- [Demo: 51 单片机流水灯工程](https://github.com/dangyukun211/test)
-- [Demo: C 语言基础算法库](https://github.com/dangyukun211/test)
 
 <p align="center">
 Visitor count: <img src="https://komarev.com/ghpvc/?username=dangyukun211&color=2ec27e"/>
