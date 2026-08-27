@@ -1,0 +1,71 @@
+name: Generate Profile
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 关键！开启写入权限，不然没法提交svg
+    steps:
+      - uses: actions/checkout@v4
+
+      # Snake 贪吃蛇
+      - name: Generate Snake
+        uses: Platane/snk@master
+        with:
+          github_user_name: dangyukun211
+          svg_out_path: assets/snake.svg
+          svg_theme: dark
+
+      # Github Stats + 语言统计
+      - name: Generate Stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          plugin_base: true
+          plugin_languages: true
+          base_theme: tokynight
+          base_hide_border: true
+          languages_layout: compact
+
+      # 本地静态打字svg（直接生成，不需要外部接口）
+      - name: Create typing.svg
+        run: |
+          mkdir -p assets
+          cat > assets/typing.svg << 'EOF'
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="40" viewBox="0 0 480 40">
+  <style>
+    .txt { font-family: Fira Code, monospace; font-size:22px; fill:#2ec27e; }
+    .cursor { fill:#2ec27e; animation: blink 0.8s infinite; }
+    @keyframes blink {0%{opacity:1}50%{opacity:0}100%{opacity:1}}
+  </style>
+  <text class="txt" x="0" y="30">
+    <tspan>Computer Science Student</tspan>
+    <animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;0.33;0.34;0.66;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <text class="txt" x="0" y="30">
+    <tspan>Embedded | C/C++</tspan>
+    <animate attributeName="opacity" values="0;1;0;0;0" keyTimes="0;0.33;0.34;0.66;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <text class="txt" x="0" y="30">
+    <tspan>Open-Source Enthusiast</tspan>
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.33;0.34;0.66;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <rect class="cursor" x="460" y="8" width="3" height="24"/>
+</svg>
+EOF
+
+      # 提交生成文件
+      - name: Commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git commit -m "auto update svg" || true
+          git push
