@@ -1,5 +1,3 @@
-
-```
 <h2 align="center">
   <span style="color:#2ec27e">>_</span> Hello, Engineer
 </h2>
@@ -10,7 +8,6 @@
 ```shell
 # About Me
 > 专注 单片机 / C语言 / 计算机基础
-```
 
 ### 🛠 Tech Stack
 
