@@ -1,16 +1,14 @@
-```
 <h2 align="center">
   <span style="color:#2ec27e">>_</span> Hello, Engineer
 </h2>
 <p align="center">
-  <img src="./typing.svg" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=500&color=2EC27E&center=true&vCenter=true&width=480&lines=Computer+Science+Student;Embedded+%7C+C/C++;Open-Source+Enthusiast" alt="typing" />
 </p>
 
 ```shell
 # About Me
 > 计科在读
 > 专注 单片机 / C语言 / 计算机基础
-```
 
 ### 🛠 Tech Stack
 
