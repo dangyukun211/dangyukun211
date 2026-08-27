@@ -3,7 +3,7 @@
   <span style="color:#2ec27e">>_</span> Hello, Engineer
 </h2>
 <p align="center">
-  <img src="https://js-readme-typing-svg.vercel.app/svg?font=Fira+Code&weight=500&size=22&duration=3000&pause=500&color=2EC27E&center=true&vCenter=true&width=480&lines=Computer+Science+Student;Embedded+%7C+C/C++;Open-Source+Enthusiast" alt="typing">
+  <img src="./typing.svg" alt="typing" />
 </p>
 
 ```shell
@@ -24,7 +24,7 @@
 </p>### 🐍 Contribution Snake
 
 <p align="center">
-<img src="https://github.com/dangyukun211/dangyukun211/blob/main/dist/snake.svg" alt="snake animation" />
+<img src="./dist/snake.svg" alt="snake animation" />
 </p>### 📊 Github Stats
 
 <p align="center">
