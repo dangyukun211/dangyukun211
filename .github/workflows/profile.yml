@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 关键！开启写入权限，不然没法提交svg
+      contents: write # ✅ 直接代码赋予写入权限，绕过网页设置
     steps:
       - uses: actions/checkout@v4
 
@@ -34,7 +34,7 @@ jobs:
           base_hide_border: true
           languages_layout: compact
 
-      # 本地静态打字svg（直接生成，不需要外部接口）
+      # 本地静态打字svg
       - name: Create typing.svg
         run: |
           mkdir -p assets
