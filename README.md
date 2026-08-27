@@ -1,13 +1,16 @@
+```
 <h2 align="center">
   <span style="color:#2ec27e">>_</span> Hello, Engineer
 </h2>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=500&color=2EC27E&center=true&vCenter=true&width=480&lines=Computer+Science+Student;Embedded+%7C+C/C++;Open-Source+Enthusiast" alt="typing">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=500&color=2EC27E&center=true&vCenter=true&width=480&lines=Computer+Science+Student;Embedded+%7C+C/C++;Open-Source+Enthusiast" alt="typing">
 </p>
 
 ```shell
 # About Me
+> 计科在读
 > 专注 单片机 / C语言 / 计算机基础
+```
 
 ### 🛠 Tech Stack
 
@@ -18,12 +21,27 @@
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 <img src="https://img.shields.io/badge/51-MCU-2ec27e?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+</p>### 🐍 Contribution Snake
+
+<p align="center">
+<img src="https://github.com/dangyukun211/dangyukun211/blob/main/dist/snake.svg" alt="snake animation" />
 </p>### 📊 Github Stats
 
 <p align="center">
 <img height="160" src="https://stats.programcx.cn/api?username=dangyukun211&theme=tokyonight&hide_border=true&show_icons=true"/>
 <img height="160" src="https://stats.programcx.cn/api/top-langs/?username=dangyukun211&theme=tokyonight&hide_border=true&layout=compact"/>
-</p><p align="center">
+</p>### 📈 Activity Graph
+
+<p align="center">
+<img src="https://gitcode.net/gh/mirrors/github-readme-activity-graph/graph?username=dangyukun211&theme=tokyo-night&hide_border=true"/>
+</p>### 📌 My Projects
+
+> 
+> 后续你有仓库之后直接替换链接，现在先保留占位
+
+- [Demo: 51 单片机流水灯工程](https://github.com/dangyukun211/test)
+- [Demo: C 语言基础算法库](https://github.com/dangyukun211/test)
+
+<p align="center">
 Visitor count: <img src="https://komarev.com/ghpvc/?username=dangyukun211&color=2ec27e"/>
 </p>
-```
