@@ -1,9 +1,9 @@
 ```
-<h2 align="center">
+h2 align="center">
   <span style="color:#2ec27e">>_</span> Hello, Engineer
 </h2>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=500&color=2EC27E&center=true&vCenter=true&width=480&lines=Computer+Science+Student;Embedded+%7C+C/C++;Open-Source+Enthusiast" alt="typing" />
+  <img src="./assets/typing.svg" alt="typing" />
 </p>
 
 ```shell
@@ -24,16 +24,17 @@
 </p>### 🐍 Contribution Snake
 
 <p align="center">
-<img src="./dist/snake.svg" alt="snake animation" />
+<img src="./assets/snake.svg" alt="snake animation" />
 </p>### 📊 Github Stats
 
 <p align="center">
-<img height="160" src="https://stats.programcx.cn/api?username=dangyukun211&theme=tokyonight&hide_border=true&show_icons=true"/>
-<img height="160" src="https://stats.programcx.cn/api/top-langs/?username=dangyukun211&theme=tokyonight&hide_border=true&layout=compact"/>
+<img height="160" src="./assets/stats.svg"/>
 </p>### 📈 Activity Graph
 
 <p align="center">
-<img src="https://gitcode.net/gh/mirrors/github-readme-activity-graph/graph?username=dangyukun211&theme=tokyo-night&hide_border=true"/>
+<img src="./assets/activity.svg"/>
+</p>### 📌 My Projects
+
 
 
 <p align="center">
