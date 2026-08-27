@@ -3,7 +3,7 @@
   <span style="color:#2ec27e">>_</span> Hello, Engineer
 </h2>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=500&color=2EC27E&center=true&vCenter=true&width=480&lines=Computer+Science+Student;Embedded+%7C+C/C++;Open-Source+Enthusiast" alt="typing">
+  <img src="https://js-readme-typing-svg.vercel.app/svg?font=Fira+Code&weight=500&size=22&duration=3000&pause=500&color=2EC27E&center=true&vCenter=true&width=480&lines=Computer+Science+Student;Embedded+%7C+C/C++;Open-Source+Enthusiast" alt="typing">
 </p>
 
 ```shell
@@ -34,7 +34,10 @@
 
 <p align="center">
 <img src="https://gitcode.net/gh/mirrors/github-readme-activity-graph/graph?username=dangyukun211&theme=tokyo-night&hide_border=true"/>
+</p>### 📌 My Projects
 
+- [Demo: 51 单片机流水灯工程](https://github.com/dangyukun211/test)
+- [Demo: C 语言基础算法库](https://github.com/dangyukun211/test)
 
 <p align="center">
 Visitor count: <img src="https://komarev.com/ghpvc/?username=dangyukun211&color=2ec27e"/>
