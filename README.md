@@ -1,3 +1,4 @@
+```
 <h2 align="center">
   <span style="color:#2ec27e">>_</span> Hello, Engineer
 </h2>
@@ -9,6 +10,7 @@
 # About Me
 > 计科在读
 > 专注 单片机 / C语言 / 计算机基础
+```
 
 ### 🛠 Tech Stack
 
@@ -32,6 +34,7 @@
 
 <p align="center">
 <img src="https://gitcode.net/gh/mirrors/github-readme-activity-graph/graph?username=dangyukun211&theme=tokyo-night&hide_border=true"/>
+
 
 <p align="center">
 Visitor count: <img src="https://komarev.com/ghpvc/?username=dangyukun211&color=2ec27e"/>
