@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="40">
+  <style>
+    .text { font-family: Fira Code, monospace; font-size:22px; fill:#2ec27e; }
+    .cursor { fill:#2ec27e; animation: blink 0.8s infinite; }
+    @keyframes blink {0%{opacity:1}50%{opacity:0}100%{opacity:1}}
+  </style>
+  <text class="text" x="0" y="30">
+    <animate attributeName="innerHTML" dur="3s" repeatCount="indefinite"
+      values="Computer Science Student;Embedded | C/C++;Open-Source Enthusiast"/>
+  </text>
+  <rect class="cursor" x="460" y="8" width="3" height="24"/>
+</svg>
